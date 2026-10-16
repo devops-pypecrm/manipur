@@ -5,7 +5,6 @@ import EnquiryPopup from "@/components/EnquiryPopup";
 import Footer from "@/components/Footer";
 import MobileBottomNav from "@/components/MobileBottomNav";
 import Navbar from "@/components/Navbar";
-import WhatsAppButton from "@/components/WhatsAppButton";
 import { AuthProvider } from "@/context/AuthContext";
 import { EnquiryProvider } from "@/context/EnquiryContext";
 import Image from "next/image";
@@ -52,7 +51,6 @@ export default function ClientShell({ children }) {
           )}
           {/* <AdvisoryPopup /> */}
           <Navbar />
-          <WhatsAppButton />
           <EnquiryPopup />
           <main>{children}</main>
           <Footer />
