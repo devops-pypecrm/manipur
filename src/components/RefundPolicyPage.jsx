@@ -226,17 +226,12 @@ export default function RefundPolicyPage() {
               <h3>Need Help with Refund?</h3>
               <p>
                 For refund-related queries or to submit a refund request, please
-                contact our Admissions Office:
+                reach out through our contact desk or visit the Admissions Office at the University Campus.
               </p>
-              <div className="contact-details">
-                <div className="contact-item">
-                  <span className="contact-icon">📧</span>
-                  <a href="mailto:admission@miu.edu.in">admission@miu.edu.in</a>
-                </div>
-                <div className="contact-item">
-                  <span className="contact-icon">📞</span>
-                  <a href="tel:+919319727766">+91 9319727766</a>
-                </div>
+              <div style={{ marginTop: "16px" }}>
+                <Link href="/contact" className="btn btn-orange" style={{ textDecoration: "none", display: "inline-block" }}>
+                  Contact Desk →
+                </Link>
               </div>
             </div>
           </div>

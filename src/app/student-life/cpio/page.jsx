@@ -25,14 +25,14 @@ export default function CPIO() {
       title: 'Contact Information',
       cards: [
         {
-          icon: '📧',
+          icon: '🏛️',
           title: 'Registrar Office',
-          content: 'Email: registrar@miu.edu.in<br/>Phone: +91 9862879287'
+          content: 'Office of the Registrar, Administrative Block<br/>Manipur International University'
         },
         {
-          icon: '📞',
+          icon: '🎓',
           title: 'Pro-Vice Chancellor Office',
-          content: 'Email: provc@miu.edu.in<br/>Phone: +91 9774011289'
+          content: 'Office of the Pro-Vice Chancellor, Academic Block<br/>Manipur International University'
         },
         {
           icon: '📍',
@@ -63,9 +63,7 @@ export default function CPIO() {
       sections={sections}
       contactInfo={{
         title: 'RTI Inquiries',
-        description: 'For information requests under the Right to Information Act, 2005.',
-        email: 'registrar@miu.edu.in',
-        phone: '+91 9862879287'
+        description: 'For information requests under the Right to Information Act, 2005, submit your application at the CPIO Office.',
       }}
     />
   );

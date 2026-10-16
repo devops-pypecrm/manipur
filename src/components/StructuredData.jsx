@@ -25,19 +25,6 @@ export default function StructuredData() {
       "latitude": "24.8170",
       "longitude": "93.9368"
     },
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "+91-9319727766",
-        "contactType": "admissions",
-        "availableLanguage": ["English", "Hindi", "Meitei"]
-      },
-      {
-        "@type": "ContactPoint",
-        "email": "admission@miu.edu.in",
-        "contactType": "customer service"
-      }
-    ],
     "sameAs": [
       "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
       "https://x.com/MIU_India",

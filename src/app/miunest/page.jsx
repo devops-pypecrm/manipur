@@ -35,7 +35,7 @@ export default function MiunestPage() {
         },
         {
           title: 'Support',
-          content: 'For technical support or login issues, contact the IT Help Desk at support@miu.edu.in or call +91 9319727766 during office hours (Mon–Sat, 9 AM – 5 PM).',
+          content: 'For technical support or login issues, visit the IT Help Desk at the university campus during office hours (Mon–Sat, 9 AM – 5 PM).',
         },
       ]}
     />

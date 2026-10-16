@@ -105,10 +105,8 @@ export default function HealthFacilities() {
       ]}
       sections={sections}
       contactInfo={{
-        title: 'Medical Emergency',
-        description: 'For medical emergencies or to schedule an appointment at the health center.',
-        email: 'health@miu.edu.in',
-        phone: '+91 9319727766'
+        title: 'Health Center',
+        description: 'Visit the Campus Health Center located at the University Campus for medical assistance and health consultations.',
       }}
     />
   );

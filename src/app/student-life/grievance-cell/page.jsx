@@ -30,10 +30,9 @@ export default function GrievanceCell() {
                     <p>Submit through our online grievance portal</p>
                   </div>
                   <div className="option-card">
-                    <span className="option-icon">✉️</span>
+                    <span className="option-icon">🏢</span>
                     <strong>Written Submission</strong>
                     <p>MIU Administrative office, Ghari, Airport road, Imphal West, Manipur - 795140</p>
-                    <p><strong>Email:</strong> miugrievance@miu.edu.in</p>
                   </div>
                 </div>
               </div>
@@ -122,9 +121,7 @@ export default function GrievanceCell() {
       sections={sections}
       contactInfo={{
         title: 'File a Grievance',
-        description: 'For submitting grievances or queries about the redressal process.',
-        email: 'miugrievance@miu.edu.in',
-        phone: '+91 9319727766'
+        description: 'For submitting grievances or queries about the redressal process, submit your complaint to the Grievance Redressal Committee.',
       }}
     />
   );

@@ -5,54 +5,45 @@ import "@/styles/Hero.css";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 
+const DEFAULT_HERO = {
+  title: "Shaping The Leaders of Tomorrow",
+  subtitle:
+    "An institution committed to intellectual rigor, industry integration, and transformative learning experiences that shape global professionals.",
+  images: ["/hero/01.webp", "/hero/02.webp", "/hero/03.webp"],
+};
+
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [previousImageIndex, setPreviousImageIndex] = useState(0);
   const [fade, setFade] = useState(false);
 
-  const [heroData, setHeroData] = useState({
-    title: "Shaping The Leaders of Tomorrow",
-    subtitle:
-      "An institution committed to intellectual rigor, industry integration, and transformative learning experiences that shape global professionals.",
-    images: [],
-  });
-
-  // const [pageContent, setPageContent] = useState({
-  //   stat1Value: "2019",
-  //   stat1Label: "Year Established",
-  //   stat2Value: "100+",
-  //   stat2Label: "Receive Multiyear Fellowships",
-  //   stat3Value: "50+",
-  //   stat3Label: "Academic Programs",
-  //   stat4Value: "10",
-  //   stat4Label: "Research Centers",
-  // });
+  const [heroData, setHeroData] = useState(DEFAULT_HERO);
 
   useEffect(() => {
     API.get("/settings/hero")
       .then(({ data }) => {
-        if (data?.content) setHeroData(data.content);
+        if (data?.content) {
+          setHeroData((prev) => ({
+            title: data.content.title || prev.title,
+            subtitle: data.content.subtitle || prev.subtitle,
+            images:
+              Array.isArray(data.content.images) && data.content.images.length > 0
+                ? data.content.images
+                : prev.images,
+          }));
+        }
       })
       .catch(() => {});
-
-    // API.get("/settings/page-home")
-    //   .then(({ data }) => {
-    //     if (data?.content) {
-    //       setPageContent((prev) => ({
-    //         ...prev,
-    //         ...data.content,
-    //       }));
-    //     }
-    //   })
-    //   .catch(() => {});
   }, []);
 
-  const { title, subtitle, images } = heroData;
+  const title = heroData?.title || DEFAULT_HERO.title;
+  const subtitle = heroData?.subtitle || DEFAULT_HERO.subtitle;
+  const images = heroData?.images;
 
   const displayImages =
-    images.length > 0
+    Array.isArray(images) && images.length > 0
       ? images
-      : ["/hero/01.webp", "/hero/02.webp", "/hero/03.webp"];
+      : DEFAULT_HERO.images;
 
   useEffect(() => {
     if (displayImages.length <= 1) return;

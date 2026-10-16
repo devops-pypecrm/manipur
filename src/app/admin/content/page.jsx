@@ -514,8 +514,6 @@ export default function ContentManager() {
   const [footerData, setFooterData] = useState({
     aboutText: "Transforming education with a globally recognized curriculum.",
     address: "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140",
-    phone: "+91 9319727766",
-    email: "admission@miu.edu.in",
     facebook:
       "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
     twitter: "https://x.com/MIU_India",
@@ -2825,8 +2823,6 @@ export default function ContentManager() {
             {[
               ["aboutText", "About Text", "textarea"],
               ["address", "Address", "textarea"],
-              ["phone", "Phone Number", "text"],
-              ["email", "Email Address", "text"],
               ["facebook", "Facebook URL", "text"],
               ["twitter", "Twitter/X URL", "text"],
               ["linkedin", "LinkedIn URL", "text"],

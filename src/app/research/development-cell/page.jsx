@@ -187,10 +187,7 @@ export default function ResearchDevelopmentCell() {
         <div className="simple-section" style={{ background: 'var(--lpu-black)', color: 'white' }}>
           <h2 style={{ color: 'white', marginBottom: '12px' }}>Contact Information</h2>
           <p style={{ color: '#ccc', fontFamily: 'var(--font-body)', fontWeight: 400, textTransform: 'none' }}>
-            For research-related queries, collaboration opportunities, or funding information:
-          </p>
-          <p style={{ marginTop: '12px', fontSize: '1.05rem' }}>
-            📧 <a href="mailto:research@miu.edu.in" style={{ color: 'var(--lpu-orange)', textDecoration: 'none' }}>research@miu.edu.in</a>
+            For research-related queries, collaboration opportunities, or funding information, visit the Research & Development Cell at the University Campus.
           </p>
         </div>
 

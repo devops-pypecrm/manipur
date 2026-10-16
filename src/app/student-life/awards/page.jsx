@@ -53,9 +53,7 @@ export default function Awards() {
       sections={sections}
       contactInfo={{
         title: 'Award Nominations',
-        description: 'For award nominations or queries about the awards program, please contact us.',
-        email: 'awards@miu.edu.in',
-        phone: '+91 9319727766'
+        description: 'For award nominations or queries about the awards program, please reach out to the Academic Honors Committee at the University Campus.',
       }}
     />
   );

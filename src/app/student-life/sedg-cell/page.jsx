@@ -72,9 +72,7 @@ export default function SEDGCell() {
       sections={sections}
       contactInfo={{
         title: 'Need Support?',
-        description: 'Contact us for financial aid, mentorship, or any support related to socio-economic challenges.',
-        email: 'sedg@miu.edu.in',
-        phone: '+91 9319727766'
+        description: 'Visit the SEDG Cell at the University Campus for financial aid, mentorship, or any support related to socio-economic challenges.',
       }}
     />
   );

@@ -85,9 +85,7 @@ export default function ProjectDevelopmentCell() {
       sections={sections}
       contactInfo={{
         title: 'Start Your Project Journey',
-        description: 'Have a project idea or need guidance? Reach out to our Project Development Cell.',
-        email: 'projects@miu.edu.in',
-        phone: '+91 9319727766'
+        description: 'Have a project idea or need guidance? Visit our Project Development Cell at the University Campus.',
       }}
     />
   );

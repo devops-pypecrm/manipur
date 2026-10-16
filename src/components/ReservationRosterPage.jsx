@@ -217,21 +217,16 @@ export default function ReservationRosterPage() {
             <div className="reservation-contact-box">
               <h3>Contact Information</h3>
               <p>
-                For any queries or further information regarding the Reservation Roster, students and stakeholders may contact:
+                For any queries or further information regarding the Reservation Roster, students and stakeholders may visit:
               </p>
               <div className="contact-office">
                 <div className="office-icon">🏛️</div>
                 <h4>Office of the Registrar</h4>
-                <p>Manipur International University</p>
-                <div className="contact-details">
-                  <div className="contact-item">
-                    <span className="contact-icon">📧</span>
-                    <a href="mailto:admission@miu.edu.in">admission@miu.edu.in</a>
-                  </div>
-                  <div className="contact-item">
-                    <span className="contact-icon">📞</span>
-                    <a href="tel:+919319727766">+91 9319727766</a>
-                  </div>
+                <p>Manipur International University Campus, Imphal</p>
+                <div style={{ marginTop: "16px" }}>
+                  <Link href="/contact" className="btn btn-orange" style={{ textDecoration: "none", display: "inline-block" }}>
+                    Contact Desk →
+                  </Link>
                 </div>
               </div>
             </div>

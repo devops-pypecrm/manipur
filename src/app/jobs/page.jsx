@@ -258,7 +258,7 @@ function ApplyModal({ job, onClose }) {
                 <label>Cover Letter / Message</label>
                 <textarea rows={4} value={form.message} onChange={e => setForm({...form, message: e.target.value})} placeholder="Tell us why you're a great fit..." />
               </div>
-              <p className="job-form-note">📎 Please email your CV to <strong>careers@miu.edu.in</strong> with subject: "Application – {job.title}"</p>
+              <p className="job-form-note">📎 Submit your application details above. You may also include your portfolio or resume link in your cover letter.</p>
               <button type="submit" className="btn btn-orange job-submit-btn">Submit Application →</button>
             </form>
           </>
@@ -361,8 +361,8 @@ export default function JobsPage() {
         {/* Bottom CTA */}
         <div className="jobs-cta-box">
           <h3>Don't see a suitable opening?</h3>
-          <p>Send your CV to <a href="mailto:careers@miu.edu.in">careers@miu.edu.in</a> and we'll keep you in mind for future opportunities.</p>
-          <a href="mailto:careers@miu.edu.in" className="btn btn-orange">Send Your CV →</a>
+          <p>Reach out to our talent acquisition team and we'll keep you in mind for future opportunities.</p>
+          <Link href="/contact" className="btn btn-orange">Contact HR Team →</Link>
         </div>
 
       </div>

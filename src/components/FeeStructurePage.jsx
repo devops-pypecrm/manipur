@@ -198,21 +198,20 @@ export default function FeeStructurePage() {
               constraints should not hinder quality education.
             </p>
             <div className="fee-scholarship-actions">
-              <a href="mailto:admission@miu.edu.in" className="btn btn-primary">
-                Contact for Details
-              </a>
+              <Link href="/contact" className="btn btn-primary">
+                Contact Admissions Office
+              </Link>
             </div>
           </div>
 
           {/* Contact Note */}
           <div className="fee-contact-note">
-            <div className="fee-contact-icon">📞</div>
+            <div className="fee-contact-icon">ℹ️</div>
             <div className="fee-contact-content">
               <h3>Need More Information?</h3>
               <p>
                 For detailed fee structure and payment plans, please contact the
-                Admissions Office at{" "}
-                <a href="mailto:admission@miu.edu.in">admission@miu.edu.in</a>
+                Admissions Office or visit the University Campus.
               </p>
             </div>
           </div>

@@ -9,8 +9,6 @@ const DEFAULTS = {
   aboutText:
     "Transforming education with a globally recognized curriculum, industry-oriented learning, and an unwavering commitment to student success.",
   address: "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140",
-  phone: "+91 9319727766",
-  email: "admission@miu.edu.in",
   facebook: "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
   twitter: "https://x.com/MIU_India",
   linkedin:
@@ -225,12 +223,6 @@ const Footer = () => {
             <ul className="footer-contact-info">
               <li>
                 <span>📍</span> {d.address}
-              </li>
-              <li>
-                <span>📞</span> {d.phone}
-              </li>
-              <li>
-                <span>✉️</span> {d.email}
               </li>
               <li>
                 <span>🕒</span> Office Hours: 9:30 AM - 4:00 PM

@@ -79,19 +79,10 @@ export default function GenericInfoPage({
               <div className="generic-contact-box">
                 <h3>{contactInfo.title || 'Contact Information'}</h3>
                 {contactInfo.description && <p>{contactInfo.description}</p>}
-                <div className="contact-details">
-                  {contactInfo.email && (
-                    <div className="contact-item">
-                      <span className="contact-icon">📧</span>
-                      <a href={`mailto:${contactInfo.email}`}>{contactInfo.email}</a>
-                    </div>
-                  )}
-                  {contactInfo.phone && (
-                    <div className="contact-item">
-                      <span className="contact-icon">📞</span>
-                      <a href={`tel:${contactInfo.phone}`}>{contactInfo.phone}</a>
-                    </div>
-                  )}
+                <div style={{ marginTop: '16px' }}>
+                  <Link href="/contact" className="btn btn-orange" style={{ textDecoration: 'none', display: 'inline-block' }}>
+                    Contact Desk →
+                  </Link>
                 </div>
               </div>
             )}

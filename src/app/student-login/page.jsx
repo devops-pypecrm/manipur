@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Link from 'next/link';
 
 export default function StudentLogin() {
   const [form, setForm] = useState({ enrollment_no: '', password: '' });
@@ -107,9 +108,9 @@ export default function StudentLogin() {
         </form>
 
         <div style={{ textAlign: 'center', marginTop: '20px' }}>
-          <a href="mailto:admission@miu.edu.in" style={{ color: 'var(--lpu-orange)', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>
-            Forgot Password?
-          </a>
+          <Link href="/contact" style={{ color: 'var(--lpu-orange)', fontWeight: '700', textDecoration: 'none', fontSize: '0.9rem', fontFamily: 'var(--font-body)' }}>
+            Forgot Password? Contact Support
+          </Link>
         </div>
       </div>
     </div>

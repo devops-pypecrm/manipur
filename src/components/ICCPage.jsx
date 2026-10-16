@@ -55,10 +55,10 @@ export default function ICCPage() {
 
           <div className="icc-contact-card">
             <div className="icc-contact-header">
-              <span className="icc-contact-icon">📞</span>
+              <span className="icc-contact-icon">🛡️</span>
               <h2>Contact ICC</h2>
             </div>
-            <p>For ICC-related matters, contact the Presiding Officer at the Student Affairs Office or email <strong>admission@miu.edu.in</strong> with subject <strong>"ICC Complaint"</strong>.</p>
+            <p>For ICC-related matters, contact the Presiding Officer at the Student Affairs Office at the University Campus or submit your concern through our support desk with subject <strong>"ICC Complaint"</strong>.</p>
             <div className="icc-contact-actions">
               <Link href="/contact" className="btn btn-orange">Contact Student Affairs →</Link>
             </div>
