@@ -141,8 +141,8 @@ export default function ContactUsPage() {
         </svg>
       ),
       title: "Campus Location",
-      primary: "Imphal, Manipur",
-      secondary: pc.address || "Manipur International University",
+      primary: "Imphal East, Manipur",
+      secondary: pc.address || "MIU Palace, Luwangsangbam Makha Leikai, Imphal East, Manipur-795002",
       color: "#EA4335",
       bgColor: "#FFEBEE",
     },
@@ -385,7 +385,7 @@ export default function ContactUsPage() {
                 <div className="map-address">
                   <p>
                     {pc.address ||
-                      "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140"}
+                      "MIU Palace, Luwangsangbam Makha Leikai, Imphal East, Manipur-795002"}
                   </p>
                 </div>
               </div>

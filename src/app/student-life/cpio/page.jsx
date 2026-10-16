@@ -37,7 +37,7 @@ export default function CPIO() {
         {
           icon: '📍',
           title: 'Postal Address',
-          content: 'Central Public Information Officer (CPIO)<br/>Manipur International University<br/>Airport Road, Ghari, Imphal<br/>Imphal West, Manipur – 795140'
+          content: 'Central Public Information Officer (CPIO)<br/>Manipur International University<br/>MIU Palace, Luwangsangbam Makha Leikai<br/>Imphal East, Manipur-795002'
         }
       ]
     },

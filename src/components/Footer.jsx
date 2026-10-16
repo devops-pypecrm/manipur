@@ -8,7 +8,7 @@ import "@/styles/Footer.css";
 const DEFAULTS = {
   aboutText:
     "Transforming education with a globally recognized curriculum, industry-oriented learning, and an unwavering commitment to student success.",
-  address: "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140",
+  address: "MIU Palace, Luwangsangbam Makha Leikai, Imphal East, Manipur-795002",
   facebook: "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
   twitter: "https://x.com/MIU_India",
   linkedin:

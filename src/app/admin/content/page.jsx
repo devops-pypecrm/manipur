@@ -513,7 +513,7 @@ export default function ContentManager() {
   // Footer
   const [footerData, setFooterData] = useState({
     aboutText: "Transforming education with a globally recognized curriculum.",
-    address: "MIU Palace, Airport Road, Ghari, Imphal, Manipur 795140",
+    address: "MIU Palace, Luwangsangbam Makha Leikai, Imphal East, Manipur-795002",
     facebook:
       "https://www.facebook.com/ManipurInternationalUniversityOfficial/",
     twitter: "https://x.com/MIU_India",

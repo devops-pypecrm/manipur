@@ -14,10 +14,10 @@ export default function StructuredData() {
     "description": "Manipur International University (MIU) is a UGC recognized premier university in Imphal, Manipur, India offering undergraduate, postgraduate and doctoral programs across Engineering, Management, Science, Commerce, Humanities and more.",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Manipur International University Campus",
-      "addressLocality": "Imphal",
+      "streetAddress": "MIU Palace, Luwangsangbam Makha Leikai",
+      "addressLocality": "Imphal East",
       "addressRegion": "Manipur",
-      "postalCode": "795001",
+      "postalCode": "795002",
       "addressCountry": "IN"
     },
     "geo": {

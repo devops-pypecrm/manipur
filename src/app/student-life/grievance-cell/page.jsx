@@ -32,7 +32,7 @@ export default function GrievanceCell() {
                   <div className="option-card">
                     <span className="option-icon">🏢</span>
                     <strong>Written Submission</strong>
-                    <p>MIU Administrative office, Ghari, Airport road, Imphal West, Manipur - 795140</p>
+                    <p>MIU Administrative office, MIU Palace, Luwangsangbam Makha Leikai, Imphal East, Manipur-795002</p>
                   </div>
                 </div>
               </div>
